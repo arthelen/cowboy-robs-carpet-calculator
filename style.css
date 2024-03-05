@@ -1,0 +1,63 @@
+body {
+  margin: 0 0 20px 0;
+  font-family: 'Arvo', serif;
+  background-color: #fff7ee;
+  font-size: 16px;
+  text-align: center;
+}
+
+header img {
+  width: 100%;
+}
+
+section {
+  padding: 20px;
+}
+
+#carpetForm {
+  margin: auto;
+  padding: 30px;
+  max-width: 800px;
+  background-color: #cdb19b;
+  border-radius: 25px;
+}
+
+#carpetForm select,
+#carpetForm input {
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+#form-footer {
+  padding: 20px;
+}
+
+button {
+  color: #fff7ee;
+  background-color: #99683f;
+  outline: none;
+  border: none;
+  font-size: 24px;
+  border-radius: 25px;
+}
+
+#result-container {
+  position: relative;
+  height: 100px;
+  background-color: #fff7ee;
+  border-radius: 25px;
+}
+
+#result-container span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: 18px;
+  transform: translateX(-50%);
+}
+
+#result {
+  font-size: 50px;
+  line-height: 120px;
+  text-align: center;
+}
